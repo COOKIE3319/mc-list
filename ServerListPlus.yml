@@ -6,28 +6,43 @@
 # ServerListPlus v3.4.8 - http://git.io/slp
 
 # More information is available in the Wiki: http://git.io/slp-wiki
-
+#更多信息可以在Wiki: http://git.io/slp-wiki中找到
 
 # This is the section where you can customize your server status ping!
+#这是您可以自定义您的服务器状态ping的部分!
 #  - Default is the section for the status used when the player name is unknown.
+# -默认是当球员名字未知时的状态部分。
 #    Personalized is used if the client has already joined the server once.
+#如果客户端已经加入服务器一次，则使用个性化。
 #    Use %player% as placeholder for the player's name.
+#使用%player%作为玩家名字的占位符。
+
 # 
 # Features:
+# 特点:
 #  - Description (MotD): A short status message for your server, max. 2 lines.
+#  - 描述(MotD):一个简短的状态消息，您的服务器，max。2行。
 #  - Players:
 #    - Hover: The player hover message that is displayed if you hover the player count.
+#    - 插槽:自定义播放器插槽格式化，参见http://git.io/slp-slots
 #    - Slots: Custom player slot formatting, see http://git.io/slp-slots
+#    - 插槽:自定义播放器插槽格式化，参见http://git.io/slp-slots
 #  - Favicon:
 #    - Use multiple server icons or the player's head as favicon, see http://git.io/oMhJlg
+#    - 使用多个服务器图标或玩家的头部作为图标，参见http://git.io/oMhJlg
 #    - Possible favicon sources: Files, Folders, URLs, Heads, Helms, Encoded
+#    - 可能的favicon来源:文件，文件夹，url，头部，头盔，编码
 # 
 #  More features are explained in the Wiki: http://git.io/slp-config
-# 
+#  更多功能可以在Wiki: http://git.io/slp-config中找到
+
 # Usage:
 #  - Add multiple entries for random messages.
+#  - 为随机消息添加多个条目。
 #  - Save the file with valid UTF-8 encoding for special characters.
+#  - 使用有效的UTF-8编码保存特殊字符文件。
 #  - Available placeholders:
+#  - 可用的占位符:
 #    - Player name: %player%
 #    - Player count: %online%, %max%, %online@server% %online@world%
 #    - Random online player name: %random_player%
